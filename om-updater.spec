@@ -4,7 +4,7 @@ Release:        1
 Summary:        OpenMandriva System Tray Updater with Flatpak support
 
 License:        GPL-3.0-or-later
-URL:            https://github.com/sezovr/om-updater
+URL:            https://github.com/sez11a/om-updater
 Source0:        %{url}/releases/download/v%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
