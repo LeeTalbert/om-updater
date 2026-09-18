@@ -9,10 +9,10 @@ Source0:        %{url}/releases/download/v%{version}/%{name}-%{version}.tar.gz
 
 BuildArch:      noarch
 
-BuildRequires:  python3-devel
-Requires:       python-qt6-core
+BuildRequires:  pkgconfig(python)
+Requires:       python%{pyver}dist(pyqt6)
 Requires:       python-qt6-widgets
-Requires:       python-dnf >= 5.0
+Requires:       python%{pyver}dist(libdnf5)
 Requires:       flatpak
 
 %description
