@@ -12,6 +12,7 @@ BuildArch:      noarch
 BuildRequires:  pkgconfig(python)
 Requires:       python%{pyver}dist(pyqt6)
 Requires:       python-qt6-widgets
+Requires:       python-qt6-gui
 Requires:       python%{pyver}dist(libdnf5)
 Requires:       flatpak
 
